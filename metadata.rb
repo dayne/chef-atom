@@ -14,7 +14,7 @@ supports 'ubuntu'
 supports 'debian'
 
 depends 'apt', '~> 3.0'
-depends 'homebrew', '~> 2.1'
+depends 'homebrew', '< 5.0.0'
 
 source_url 'https://github.com/mohitsethi/chef-atom'
 issues_url 'https://github.com/mohitsethi/chef-atom/issues'
